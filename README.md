@@ -13,3 +13,8 @@ yarn install <br />
 yarn chain (keep this terminal open and open a new terminal) <br />
 yarn deploy <br />
 yarn start <br />
+
+In case the application is stuck on "uploading to nft.storage" <br />
+go to https://nft.storage/login/ and create an API key <br />
+replace NFT_STORAGE_KEY in packages/react-app/src/constants.js with the API key <br />
+Redo steps 4-6
